@@ -1,6 +1,89 @@
 /* VARIABLES */
-#main-nav {
-  background: #032f3e;
+#header {
+  background-color: #48494b;
+  width: 100%;
+  height: 50px;
+}
+#header .contactinfo a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  font-size: 10px;
+}
+#header .contactinfo a:hover {
+  background: #4a4c4e;
+}
+#header .social-icons .fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 44px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 5px;
+  border-radius: 10%;
+}
+#header .social-icons .fa-facebook {
+  background: #48494b;
+  color: white;
+}
+#header .social-icons .fa-facebook:hover {
+  transition: 0.3s;
+  background: #3B5998;
+}
+#header .social-icons .fa-twitter {
+  background: #48494b;
+  color: white;
+}
+#header .social-icons .fa-twitter:hover {
+  transition: 0.3s;
+  background: #55ACEE;
+}
+#header .social-icons .fa-google {
+  background: #48494b;
+  color: white;
+}
+#header .social-icons .fa-google:hover {
+  transition: 0.3s;
+  background: #dd4b39;
+}
+#header .social-icons .fa-linkedin {
+  background: #48494b;
+  color: white;
+}
+#header .social-icons .fa-linkedin:hover {
+  transition: 0.3s;
+  background: #dd4b39;
+}
+#header .social-icons div {
+  margin: 0px;
+  padding: 0px;
+}
+#header .social-icons .row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+#header .dropdown-menu a {
+  color: #48494b;
+  text-align: center;
+  font-size: 15px;
+}
+#header .button {
+  color: #48494b;
+  text-align: center;
+  font-size: 15px;
+}
+#header .shop-menu a {
+  color: #48494b;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
